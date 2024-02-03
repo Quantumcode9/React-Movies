@@ -1,0 +1,35 @@
+.movie-detail-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .poster-card {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 #000;
+    transition: transform 0.3s ease;
+  }
+  
+  .movie-poster img {
+    align-items: center;
+    width: auto;
+    height: 100%;
+    box-shadow: 0 0 10px 0 #000;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    
+  }
+  .movie-poster img:hover {
+    transform: scale(1.01); 
+    padding: 0;
+  }
+  
+  .detail-info {
+    flex-grow: 1;
+    margin-left: 20px;
+
+  }
