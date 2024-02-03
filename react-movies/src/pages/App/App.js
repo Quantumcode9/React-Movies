@@ -6,6 +6,7 @@ import MovieDetailPage from '../MovieDetailPage';
 import ActorListPage from '../ActorListPage';
 import NavBar from "../../components/NavBar/NavBar";
 import LoginPage from '../LoginPage/LoginPage';
+import { movies } from "../../data.js";
 
 export default function App() {
   const [user, setUser] = useState(null);
