@@ -1,0 +1,55 @@
+.actor-card {
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: background 1s;
+    transition: 1s;
+    background-size: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 #000;
+    border: 2px solid #a19100;
+  }
+  
+  .actor-card:hover {
+    background-size: 200%;
+    background-position: center;
+    animation: gradient 15s ease infinite;
+    transition: 1s;
+    transform: scaleX(1.1) scaleY(1.1);
+  }
+
+    @keyframes gradient {
+        0% {
+        background-position: 0% 50%;
+        }
+        50% {
+        background-position: 100% 50%;
+        }
+        100% {
+        background-position: 0% 50%;
+        }
+    }
+
+  
+    .actor-card h3 {
+        margin: 0;
+        padding: 0;
+        color: #f9f5f5;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+     
+    }
+    
+    .actor-card h3:hover {
+        color: #a19100;
+        text-shadow: 0 0 10px 0 #000;
+        transition: 0.5s;
+    }
+    

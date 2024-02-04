@@ -1,0 +1,12 @@
+
+.actor-page {
+font-size: 1.5em;
+color: rgb(255, 217, 0);
+text-align: center;
+}
+
+.credit-list {
+color: white;
+list-style-type: none;
+padding: 0;
+}

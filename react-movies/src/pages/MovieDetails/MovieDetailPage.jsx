@@ -21,12 +21,13 @@ return (
   <div className="detail-info">
     <h2>{movie.title}</h2>
     <p>Release Date: {movie.releaseDate}</p>
-    <ul>
+    </div>
+    <ul className='cast-list'>
       {movie.cast.map((castMember, index) => (
         <li key={index}>{castMember}</li>
       ))}
     </ul>
-  </div>
+  
 </div>
     
         </>

@@ -4,13 +4,15 @@ import './NavBar.css';
 export default function NavBar({ user }) {
   return (
     <div className="navbar">
-      <Link className="nav-item" to="/">
-        <button className="btn fourth">Movies</button>
+      {/* Style the Link components to look like buttons */}
+      <Link className="btn fourth nav-item" to="/">
+        Movies
       </Link>
-      <Link className="nav-item" to="/actors">
-        <button className="btn fourth">Actors</button>
+      <Link className="btn fourth nav-item" to="/actors">
+        Actors
       </Link>
       <p className="nav-item">Welcome, {user}!</p>
     </div>
   );
 }
+
