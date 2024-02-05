@@ -11,12 +11,12 @@ function ActorsListPage() {
   const uniqueActors = Array.from(allActors);
 
   return (
-    <div className="movie-card-container">
-      {uniqueActors.map(actorName => (
-         <Link to={`/actors/${actorName}`} key={actorName}>
-         <ActorCard actorName={actorName} />
-       </Link>
-     ))}
+  <div className="movie-card-container">
+    {uniqueActors.map(actorName => (
+        <Link to={`/actors/${actorName}`} key={actorName}>
+        <ActorCard actorName={actorName} />
+      </Link>
+    ))}
 
     </div>
   );
