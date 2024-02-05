@@ -1,8 +1,9 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
-    background-color: #333;
-    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c39c00;
+    padding: 1px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -11,9 +12,11 @@
   
   .nav-item {
     color: white;
-    text-decoration: none;
+    
+
+    
   }
   
   .nav-item:hover {
-    color: #ddd;
+    color: #f8d700;
   }

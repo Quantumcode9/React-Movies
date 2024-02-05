@@ -16,8 +16,8 @@ export default function LoginPage({ setUser: setAppUser }) {
 
   return (
     <div className="login-page">
-      <h1>Login</h1>
     <form className='form' onSubmit={login}>
+    <h1>Login</h1>
       <input
         name="username"
         placeholder="Username"
